@@ -3,10 +3,10 @@ import chromium from 'chrome-aws-lambda'
 import renderSocialImage from 'puppeteer-social-image-transitive-bs'
 import { getBlockTitle, parsePageId } from 'notion-utils'
 
-import { mapNotionImageUrl } from '../../lib/map-image-url'
+import { mapNotionImageUrl } from '../../../lib/map-image-url'
 // import { getPageDescription } from '../../lib/get-page-description'
-import { getPage } from '../../lib/notion'
-import * as types from '../../lib/types'
+import { getPage } from '../../../lib/notion'
+import * as types from '../../../lib/types'
 import {
   socialImageTitle,
   // socialImageSubtitle,
@@ -14,7 +14,7 @@ import {
   defaultPageIcon,
   rootNotionPageId,
   socialImageSubtitle
-} from '../../lib/config'
+} from '../../../lib/config'
 
 export interface SocialImageConfig {
   title: string
