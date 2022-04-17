@@ -205,6 +205,13 @@
 .notion-block-ab9a258d6cf444f3bb40dc2600feae91 .notion-page-link {
   justify-content: center;
   padding: 2em;
+  width: 100%;
+}
+
+.notion-column .notion-page-link {
+  border-radius: 16px;
+  padding: 2em;
+  justify-content: center;
 }
 
 .notion-code {
